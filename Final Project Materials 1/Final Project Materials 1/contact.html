@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+
+  <body>
+    <div class="header-nav">
+      <h1>JEE BUDDY</h1>
+
+      <header>
+        <nav>
+          <ul style="display: flex">
+            <li>Home</li>
+            <li class="dropdown">
+              Explore
+              <div class="dropdown-content">
+                <a href="#maths-syllabus">Maths Syllabus</a>
+                <a href="#physics-syllabus">Physics Syllabus</a>
+                <a href="#chemistry-syllabus">Chemistry Syllabus</a>
+                <a href="#roadmap">Roadmap</a>
+              </div>
+            </li>
+            <li>Contact</li>
+            <li>Formulas</li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <div class="cont">
+      <div class="left-section">
+        <div class="contentsection1">
+          <h2>Contact Information</h2>
+          <p><i class="bx bx-envelope"></i> iamhamzah28@gmail.com</p>
+          <p><i class="bx bx-envelope"></i> rishavgupta172003@gmail.com</p>
+        </div>
+      </div>
+
+      <div class="mainclass">
+        <form action="form.py">
+          <h1>Send us a message <i class="bx bxs-envelope"></i></h1>
+          <div class="input-box">
+            <input type="text" placeholder="Enter your name" required />
+          </div>
+
+          <div class="input-box">
+            <input type="text" placeholder="Enter your email" required />
+          </div>
+
+          <div class="input-box">
+            <input type="tel" placeholder="Enter your phone number" required />
+          </div>
+
+          <div class="input-box">
+            <select name="Level" id="levelacad">
+              <option value="levelacad" style="color: black">
+                Select academic level
+              </option>
+              <option value="C 11" style="color: black">Class 11</option>
+              <option value="C 12" style="color: black">Class 12</option>
+              <option value="Drop" style="color: black">Dropper</option>
+            </select>
+          </div>
+          <div class="input-box">
+            <input type="text" placeholder="Enter your message" required />
+          </div>
+
+          <button type="submit" class="btn">
+            Submit <i class="bx bx-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="item">
+          <h2>JEE BUDDY</h2>
+          <p>Master JEE Mains with a Personalized Plan!</p>
+        </div>
+        <div class="itm">
+          <ul>
+            <h3>Quick Links</h3>
+            <li>Home</li>
+            <li>Explore</li>
+            <li>Contact</li>
+            <li>Formulas</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3>Get In Touch</h3>
+          <p><i class="bx bx-envelope"></i> iamhamzah28@gmail.com</p>
+          <p><i class="bx bx-envelope"></i> rishavgupta172003@gmail.com</p>
+        </div>
+      </div>
+      <div class="item2">
+        <p>Copyright &copy; 2024</p>
+      </div>
+    </footer>
+  </body>
+</html>
